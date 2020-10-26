@@ -1,0 +1,15 @@
+#vogel{
+    margin-top: 9.375rem;
+}
+
+.span-12{
+   flex-direction: flex-start;
+}
+svg{height: 25vw;
+}
+polygon{fill: #d3d3d3; transition: .6s fill;}
+polygon:hover{fill: #eee;}
+
+p{
+    color: lightgrey;
+}

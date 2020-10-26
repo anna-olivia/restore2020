@@ -1,0 +1,21 @@
+#bild {
+  width: 15.625rem;
+  height: 15.625rem;
+  border-radius: 12.5rem;
+  margin-top: 6.25rem;
+  margin-bottom: 3.125rem;
+}
+#email {
+  text-decoration: none;
+  color: lightgray;
+  text-decoration: underline;
+  text-decoration-color: rgb(250, 1, 175);
+}
+h3 {
+  color: lightgray;
+  text-decoration: underline double;
+  text-decoration-color: black;
+}
+.card#elfriede {
+  margin-right: 6rem;
+}

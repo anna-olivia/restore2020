@@ -1,0 +1,39 @@
+#login,
+#regist {
+  margin-top: 12.5rem;
+  margin-left: 3.125rem;
+}
+
+#meldung_reg1 {
+  margin-top: 12.5rem;
+  color: lightgrey;
+  font-size: 1.625rem;
+}
+#meldung_reg1 a {
+  color: rgb(250, 1, 175);
+}
+#meldung_reg2 {
+  margin-top: 1.5rem;
+}
+
+/* Extra small devices (phones, 320px ) */
+@media only screen and (max-width: 20rem) {
+  #login input {
+    width: 13.75rem;
+  }
+  #regist input {
+    width: 13.75rem;
+  }
+  #upload textarea {
+    width: 13.75rem;
+  }
+}
+/* Extra small devices (phones,321px bis 600px and down) */
+@media only screen and (min-width: 20.0625rem) and (max-width: 37.5rem) {
+  #login input {
+    width: 19.375rem;
+  }
+  #upload textarea {
+    width: 19.375rem;
+  }
+}

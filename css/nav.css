@@ -1,0 +1,41 @@
+
+.fixed-top{
+    background-color: black;
+    color: rgb(250, 1,175);
+     
+}
+h3{
+    font-size: 1.2rem;
+}
+.navbar-expand-sm{
+    background-color: black;
+}
+/*farbe des hamburger menus ändern, geht nur so, da es ein bild ist*/
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,1,175)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.dropdown-menu{
+    background-color: black;
+   
+}
+
+.dropdown-item{
+    color: rgb(250, 1,175);
+}
+
+
+/* Extra small devices (phones, 320px ) */
+@media only screen and (max-width: 20rem) {
+    .dropdown-menu{
+        background-color: black;
+        margin-left: 0rem;
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 20.0625rem) and (max-width: 37.5rem) {
+    .dropdown-menu{
+        background-color: black;
+        margin-left: -10rem;
+    }
+}
+

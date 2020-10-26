@@ -1,0 +1,15 @@
+body {
+  margin-top: 9.375rem;
+  color: rgb(250, 1, 175);
+  background-image: url(../vogelbilder/rabenkraehe_1920_1362.jpg);
+  background-repeat: no-repeat;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.flex-column {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: -9.375rem;
+}
+a {
+  color: lightgrey;
+}
