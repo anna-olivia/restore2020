@@ -9,7 +9,25 @@ include("inc/config.php");
 <?php include("inc/header.php") ?>
 <?php include("inc/nav.php"); ?>
 
-    
+    <?php    echo " <div class='container-sm float-left'><br><button type='button' class='btn btn-info' data-toggle='modal' data-target='#info'>
+    Erfahre mehr
+</button>";
+echo "
+<div class='modal fade' id='info' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+    <div class='modal-dialog'>
+            <div class='modal-content'>
+                    <div class='modal-header'>
+                            <h5 class='modal-title' id='exampleModalLabel'>Was ist STADT_NATUR?</h5>
+                            <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                                    <span aria-hidden='true'>&times;</span>
+                            </button>
+                    </div>
+                    <div class='modal-body text-dark'>
+             Man mag es kaum glauben, aber die Stadtnatur hat eine artenreiche, vielfältige Flora und Fauna. 
+             Auf dieser Seite wollen wir nur einen kleinen Eindruck hinterlassen, wie divers alleine die Vögel in einer Stadt sind. 
+             Hier findet ihr ein paar Exemplare typischer Vogelarten, die man in der Stadt beobachten kann. Viel Spaß! 
+                  </div></div></div>";
+                  echo "</div>"; ?>
 
 <div class="container-fluid">
 
